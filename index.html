@@ -1,30 +1,124 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
-
 <head>
 <meta charset="UTF-8">
-<title>封批派對</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>封印者角色攻略站</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-<h1>封批派對</h1>
-<p>角色攻略・技能介紹・接法整理</p>
+<header class="topbar">
+    <div class="logo">Closers Guide</div>
+
+    <nav>
+        <a href="#">首頁</a>
+        <a href="#">角色攻略</a>
+        <a href="#">更新紀錄</a>
+        <a href="#">關於本站</a>
+    </nav>
 </header>
 
-<main>
+<div class="layout">
 
-<h2>角色列表</h2>
+    <aside class="sidebar">
+        <h3>角色列表</h3>
 
-<div id="home" class="grid"></div>
+        <div class="team-title">黑羊小隊</div>
 
-<div id="page" class="page"></div>
+        <a class="character-link active" href="#">李世河</a>
+        <a class="character-link" href="#">尤莉</a>
+        <a class="character-link" href="#">瑟鈴</a>
+        <a class="character-link" href="#">J</a>
+    </aside>
 
-</main>
+    <main class="content">
 
-<script src="script.js"></script>
+        <section class="hero">
+            <h1>封印者角色攻略站</h1>
+            <p>專注於角色介紹、技能解析、技能點法、接法攻略、配裝、PNA 與時裝屬性整理。</p>
+        </section>
+
+        <section class="character-page">
+
+            <h2>李世河</h2>
+
+            <details open>
+                <summary>角色介紹</summary>
+                <p>
+                    這裡放角色基本介紹，例如角色特色、操作方向、適合的玩法。
+                </p>
+            </details>
+
+            <details>
+                <summary>技能介紹</summary>
+
+                <div class="skill-box">
+                    <img src="images/seha/skill1.jpg" alt="技能圖片">
+                    <div>
+                        <h4>技能名稱</h4>
+                        <p>這裡放技能效果、使用時機與注意事項。</p>
+                    </div>
+                </div>
+
+                <div class="skill-box">
+                    <img src="images/seha/skill2.jpg" alt="技能圖片">
+                    <div>
+                        <h4>技能名稱</h4>
+                        <p>這裡放第二個技能的介紹。</p>
+                    </div>
+                </div>
+
+            </details>
+
+            <details>
+                <summary>技能點法</summary>
+                <p>
+                    這裡放技能要點高、保留、或依照玩法調整的說明。
+                </p>
+            </details>
+
+            <details>
+                <summary>接法攻略</summary>
+                <p>
+                    這裡放技能接法，例如：技能A → 技能B → 技能C。
+                </p>
+            </details>
+
+            <details>
+                <summary>配裝推薦</summary>
+                <p>
+                    這裡放目前版本配裝方向、裝備選擇理由。
+                </p>
+            </details>
+
+            <details>
+                <summary>PNA推薦</summary>
+                <p>
+                    這裡放 PNA 點法與原因。
+                </p>
+            </details>
+
+            <details>
+                <summary>時裝屬性</summary>
+                <p>
+                    這裡放時裝屬性選擇與說明。
+                </p>
+            </details>
+
+            <details>
+                <summary>更新紀錄</summary>
+                <p>
+                    2026/06/30：建立李世河攻略頁版型。
+                </p>
+            </details>
+
+        </section>
+
+    </main>
+
+</div>
 
 </body>
 </html>
