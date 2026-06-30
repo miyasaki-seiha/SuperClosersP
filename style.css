@@ -1,0 +1,163 @@
+/* =========================
+   基本設定
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Microsoft JhengHei",sans-serif;
+    background:#0f172a;
+    color:white;
+}
+
+/* =========================
+   Header
+========================= */
+
+header{
+    background:linear-gradient(135deg,#0f172a,#1e293b,#2563eb);
+    padding:40px;
+    text-align:center;
+    border-bottom:2px solid #38bdf8;
+}
+
+header h1{
+    font-size:40px;
+    color:#38bdf8;
+}
+
+header p{
+    margin-top:10px;
+    color:#cbd5e1;
+}
+
+/* =========================
+   內容
+========================= */
+
+main{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
+}
+
+h2{
+    margin-bottom:20px;
+    color:#38bdf8;
+}
+
+/* =========================
+   角色卡片
+========================= */
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+    gap:20px;
+}
+
+.card{
+
+    background:#1e293b;
+
+    border-radius:12px;
+
+    padding:20px;
+
+    cursor:pointer;
+
+    transition:0.25s;
+
+    border:1px solid #334155;
+
+}
+
+.card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:#38bdf8;
+
+}
+
+.card h3{
+
+    color:#38bdf8;
+
+    text-align:center;
+
+}
+
+/* =========================
+   角色頁
+========================= */
+
+.page{
+
+    display:none;
+
+    margin-top:30px;
+
+}
+
+.back{
+
+    background:#38bdf8;
+
+    color:black;
+
+    border:none;
+
+    padding:10px 16px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    margin-bottom:20px;
+
+}
+
+.skill{
+
+    display:flex;
+
+    gap:15px;
+
+    background:#1e293b;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    margin-bottom:15px;
+
+}
+
+.skill img{
+
+    width:80px;
+
+    height:80px;
+
+    object-fit:cover;
+
+    border-radius:8px;
+
+}
+
+.combo{
+
+    background:#2563eb;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    margin-top:20px;
+
+}
