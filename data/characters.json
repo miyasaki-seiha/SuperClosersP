@@ -1,0 +1,21 @@
+[
+  {
+    "name": "李世河",
+    "skills": [
+      {
+        "img": "images/seha/skill1.jpg",
+        "text": "技能1：這裡放技能介紹"
+      },
+      {
+        "img": "images/seha/skill2.jpg",
+        "text": "技能2：這裡放技能介紹"
+      }
+    ],
+    "combo": [
+      "技能1 起手",
+      "技能2 接續",
+      "空中追擊",
+      "爆發收尾"
+    ]
+  }
+]
