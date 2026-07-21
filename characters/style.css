@@ -386,3 +386,18 @@ img, video{
     background:#1f2937;
 
 }
+.skill-row{
+    display:flex;
+    gap:20px;
+}
+
+.skill-row .skill-box{
+    flex:1;
+}
+@media(max-width:900px){
+
+    .skill-row{
+        flex-direction:column;
+    }
+
+}
